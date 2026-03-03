@@ -8,10 +8,47 @@ ul, ol {
   margin-left: 25px;
 }
 /*select html and set the background color, color, font family with fallback, and font size. */
+html {
+  background-image: url("https://png.pngtree.com/png-clipart/20201209/original/pngtree-modern-beautiful-6-petal-christmas-snowflakes-png-image_5677739.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: aqua;
+}
 /*change img height to 300px and width to auto*/
+img {
+  height: 300px;
+  width: auto;
+}
 /*change subtitle font size to larger than the default. */
+h3 {
+  font-size: 20px;
+  color: red;
+}
 /*Change the times to a bold font-weight*/
+
 /*select the li inside of ingredients to list-style: square*/
+li {
+  list-style: square;
+}
 /*select the times inside of the lists and change to a different color*/
 /*select the link and change it's color; */
+footer a:link {
+color:blue;
+}
+
+footer a:visited {
+  color:black;
+}
+
+a:hover {
+  color:greenyellow;
+  text-decoration: none;
+}
+
+a:active {
+  color: red;
+}
 /*select h1 and h2 elements and change their case to uppercase*/
